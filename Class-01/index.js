@@ -14,4 +14,3 @@ fs.mkdirSync("folder")
 fs.writeFileSync("folder/new.txt","hiiiiiiiiiiiiii")
 let data2 = readFileSync("folder/new.txt")
 console.log(data2.toString(), "Doneeeee")
-a
