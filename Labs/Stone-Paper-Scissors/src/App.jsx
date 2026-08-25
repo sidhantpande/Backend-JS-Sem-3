@@ -20,10 +20,10 @@ const App = () => {
       (choice === 'Paper' && compChoice === 'Stone') ||
       (choice === 'Scissor' && compChoice === 'Paper')
     ) {
-      setResult('You Win! 🎉');
+      setResult('You Win!');
       setScore(prev => ({ ...prev, player: prev.player + 1 }));
     } else {
-      setResult('Computer Wins! 🤖');
+      setResult('Computer Wins!');
       setScore(prev => ({ ...prev, computer: prev.computer + 1 }));
     }
   }
